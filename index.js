@@ -55,12 +55,85 @@ const salesTax = [
 
 //! Classes
 
+class Store {
+    constructor(name,location,sales_tax, inventory,balance, expenses,profit,paid_tax){
+        this.name = name;
+        this.location = location;
+        this.sales_tax = sales_tax;
+        this.inventory = inventory;
+        this.balance = balance;
+        this.expenses = expenses;
+        this.profit = profit;
+        this.paid_tax = paid_tax;
+        add: function()
+        sell: function()
+
+
+    }
+
+    
+}
+
+class Product {
+    constructor(upc,name,type,purchase_price,quantity,market_price){
+        this.upc = upc;
+        this.name = name;
+        this.type = type;
+        this.purchase_price = purchase_price;
+        this.quantity = quantity;
+        this.market_price = market;
+    }
+
+}
 
 //! CREATE STORES
 // Generate 3 different stores, each in a different state.
 
+let store1 = {
+    name: walmart,
+    location: [
+        City: Houston,
+        State: Texas, 
+    ],
+    sales_tax:
+    inventory: 0,
+    balance: 150,
+    expenses: 0,
+    profit: 0,
+    paid_tax:
+}
+
+let store2 = {
+    name: Kohls,
+    location: [
+        City: LA,
+        State: California
+    ]
+    sales_tax:
+    inventory: 0,
+    balance: 250,
+    expenses: 0
+    profit:0
+    paid_tax:
+}
+
+let store3 = {
+    name: Food Lion,
+    location: [
+        City:
+        State:
+    ]
+    sales_tax:
+    inventory: 0
+    balance: 100,
+    expenses: 0,
+    profit: 0,
+    paid_tax:
+}
+
 //! Inventory
 
+let inventory = ["Spoons", "Plates", "Candles", "Cleaning Supplies"];
 
 //! Stocking
 
@@ -82,3 +155,4 @@ const salesTax = [
 /* 
     Simply console log each store to check the completed details.
 */
+
